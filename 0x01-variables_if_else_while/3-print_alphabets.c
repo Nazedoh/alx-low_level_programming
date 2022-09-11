@@ -1,24 +1,27 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
 /**
  * main - prints alphabet in lowercase, then in uppercase
  * Return: 0
  */
-
 int main(void)
 {
-	char l_letter;
-	char u_letter;
+	char letter = 'a';
 
-	for (l_letter = 97; l_letter <= 122; l_letter++)
+	while (letter <= 'z')
 	{
-		putchar(l_letter);
+		putchar(letter);
+		letter++;
 	}
 
-	for (u_letter = 'A'; u_letter <= 'Z'; u_letter++)
+	letter = 'A';
+
+	while (letter <= 'Z')
 	{
-		putchar(l_letter);
+		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 
