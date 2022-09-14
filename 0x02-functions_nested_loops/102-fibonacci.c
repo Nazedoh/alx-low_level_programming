@@ -13,6 +13,7 @@ int main(void)
 	int i;
 
 	unsigned long int j, k, next, sum;
+
 	j = 1;
 	k = 2;
 	sum = 0;
@@ -20,7 +21,7 @@ int main(void)
 	{
 		if (j < 4000000 && (j % 2) == 0)
 		{
-			sum = sum + j;
+		sum = sum + j;
 		}
 		next = j + k;
 		j = k;
